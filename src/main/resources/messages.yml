@@ -1,0 +1,6 @@
+messages:
+  no_permission: "<red>No tienes permisos para eso!"
+  no_player: "<red>No puedes ejecutar este comando desde la consola!"
+  no_mob_specified: "<red>Debes especificar el nombre del mob!"
+  mobs_reload: "<green>Configuración recargada!"
+  preview_menu_title: "<gradient:#084CFB:#ADF3FD><bold>Preview"

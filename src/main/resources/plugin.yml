@@ -1,0 +1,15 @@
+name: CustomMobs
+version: '1.0-SNAPSHOT'
+main: cristianac.live.customMobs.CustomMobs
+api-version: '1.21'
+prefix: Custom-Mobs
+authors: [ CrIsTiAnPvP ]
+website: cristianac.live
+commands:
+  spawnmob:
+    aliases:
+      - spmb
+    description: Spawnea un mob personalizado
+    permission: custommobs.spawnmob
+    conditions:
+      - 'player'

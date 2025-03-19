@@ -1,0 +1,53 @@
+mobs:
+  CrIsTiiAn_PvP:
+    display_name: 'Zombie'
+    mob_type: 'ZOMBIE'
+    description: 'Este zombie tiene 200 de vida'
+    health: 200
+    damage: 10
+    speed: 0.5
+    inventory:
+      main_hand:
+        item: 'IRON_SWORD'
+        enchantments:
+          - 'DAMAGE_ALL 2'
+      helmet:
+        item: 'PLAYER_HEAD'
+        head_owner: 'CrIsTiiAn_PvP'
+        drop_chance: 0.1
+        lore:
+            - '<gradient:#084CFB:#ADF3FD>Cabeza de CrIsTiiAn_PvP</gradient>'
+        enchantments:
+          - 'PROTECTION 2'
+      chestplate:
+        item: 'IRON_CHESTPLATE'
+        drop_chance: 0.1
+        lore:
+            - '<gradient:#084CFB:#ADF3FD>Pecho de CrIsTiiAn_PvP</gradient>'
+        enchantments:
+          - 'PROTECTION 2'
+      leggings:
+        item: 'IRON_LEGGINGS'
+        drop_chance: 0.1
+        lore:
+            - '<gradient:#084CFB:#ADF3FD>Pantalones de CrIsTiiAn_PvP</gradient>'
+        enchantments:
+          - 'PROTECTION 2'
+      boots:
+        item: 'IRON_BOOTS'
+        drop_chance: 0.1
+        lore:
+            - '<gradient:#084CFB:#ADF3FD>Botas de CrIsTiiAn_PvP</gradient>'
+        enchantments:
+          - 'PROTECTION 2'
+          - 'FEATHER_FALLING 2'
+    freeze: false
+    gravity: true
+    invulnerable: false
+    riding: true
+    rider: 'SKELETON'
+    effects:
+      - 'SLOW'
+    drops:
+      - 'IRON_SWORD'
+      - 'GOLDEN_APPLE'
